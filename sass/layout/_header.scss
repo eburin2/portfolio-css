@@ -1,0 +1,32 @@
+
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #775e09;
+}
+
+#name {
+  font-family: nikefont;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header li {
+  display: inline;
+  font-family: nikefont;
+  margin: 15px;
+  padding: 30px;
+  font-size: 20px;
+  color: #775e09;
+}
+
+a {
+  text-decoration: none;
+  color: #775e09;
+}

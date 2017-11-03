@@ -1,0 +1,57 @@
+.container {
+  width: 100%
+}
+
+body {
+  background-color: $cream;
+  // background-image: url("../img/city.jpg");
+  // background-size: cover;
+  // background-position: center;
+}
+
+
+
+.main-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+#elliot-main {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid #8B4513;
+  margin-top: 100px;
+  margin-left: 270px;
+}
+
+.gallery-main {
+  display: flex;
+  justify-content: center;
+}
+
+#design-influences {
+  font-size: 30px;
+  font-family: nikefont;
+  margin-left: -30px;
+  padding-top: 30px;
+  color: black;
+}
+
+
+#one {
+  margin-left: 40px;
+}
+
+img {
+  margin-top: 70px;
+  width: 610px;
+  height: 300px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.design-text {
+  font-family: nikefont;
+  text-align: center;
+}

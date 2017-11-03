@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "nikefont";
+    src: url("https://www.nike.com/styleguide/assets/fonts/nike/5fdc935e-9e30-442a-bbe9-8d887b858471.woff") format('woff');
+}
+
+p {
+  font-family: nikefont;
+  font-size: 25px;
+  text-align: center;
+  margin-left: -40px;
+  font-weight: 400;
+  color: #775e09;
+}
+
+// #sub-content {
+//   font-family: nikefont;
+//   font-size: 20px;
+//   margin-left: -35px;
+//   font-weight: 400px;
+//   color: #775e09;
+// }
