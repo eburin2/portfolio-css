@@ -1,0 +1,54 @@
+@media only screen and (max-width: 499px) {
+    .container {
+        width: 60%;
+      }
+
+      .gallery-main {
+        display: flex;
+        & p {
+          font-size: 14px;
+          font-weight: bold;
+          color: black;
+          margin-left: -160px;
+          padding-left: 175px;
+        }
+      }
+
+      #one {
+        display: none;
+      }
+
+      .stephen {
+        display: none;
+      }
+
+      .design-influences {
+        margin-left: -10px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      #two {
+        width: 375px;
+        height: 375px;
+        margin: 2px;
+      }
+
+      .mario {
+        font-size: 15px;
+      }
+
+      #six  {
+        display: none;
+      }
+
+      .six {
+        display: none;
+      }
+
+      #elliot-main {
+        position: relative;
+        left: -120px;
+      }
+
+    }

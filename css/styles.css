@@ -1,3 +1,44 @@
+@media only screen and (max-width: 499px) {
+  .container {
+    width: 60%; }
+
+  .gallery-main {
+    display: flex; }
+    .gallery-main p {
+      font-size: 14px;
+      font-weight: bold;
+      color: black;
+      margin-left: -160px;
+      padding-left: 175px; }
+
+  #one {
+    display: none; }
+
+  .stephen {
+    display: none; }
+
+  .design-influences {
+    margin-left: -10px;
+    font-size: 25px;
+    font-weight: bold; }
+
+  #two {
+    width: 375px;
+    height: 375px;
+    margin: 2px; }
+
+  .mario {
+    font-size: 15px; }
+
+  #six {
+    display: none; }
+
+  .six {
+    display: none; }
+
+  #elliot-main {
+    position: relative;
+    left: -120px; } }
 * {
   box-sizing: border-box; }
 
@@ -20,6 +61,14 @@ header {
   font-family: nikefont;
   font-size: 40px;
   margin-left: 30px; }
+
+#name {
+  transition: all 2s linear; }
+
+#name:hover {
+  background-color: aqua;
+  border: 4px solid #8B4513;
+  font-size: 35px; }
 
 .main-header {
   display: flex;
@@ -67,13 +116,16 @@ body {
   border-radius: 100%;
   border: 1px solid #8B4513;
   margin-top: 100px;
-  margin-left: 270px; }
+  margin-left: 200px; }
+
+#elliot-main:hover {
+  background: blue; }
 
 .gallery-main {
   display: flex;
   justify-content: center; }
 
-#design-influences {
+.design-influences {
   font-size: 30px;
   font-family: nikefont;
   margin-left: -30px;

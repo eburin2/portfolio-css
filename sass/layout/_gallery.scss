@@ -16,13 +16,19 @@ body {
   justify-content: center;
 }
 
+
 #elliot-main {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   border: 1px solid #8B4513;
   margin-top: 100px;
-  margin-left: 270px;
+  margin-left: 200px;
+
+}
+
+#elliot-main:hover {
+  background: blue;
 }
 
 .gallery-main {
@@ -30,7 +36,7 @@ body {
   justify-content: center;
 }
 
-#design-influences {
+.design-influences {
   font-size: 30px;
   font-family: nikefont;
   margin-left: -30px;
@@ -90,3 +96,7 @@ img {
   justify-content: center;
   margin-left: 100px;
 }
+
+// .design-influences {
+//   color: black;
+// }
