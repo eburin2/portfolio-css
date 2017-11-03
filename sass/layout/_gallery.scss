@@ -24,11 +24,12 @@ body {
   border: 1px solid #8B4513;
   margin-top: 100px;
   margin-left: 200px;
-
+  transition: transform 500ms ease-in-out;
 }
 
+
 #elliot-main:hover {
-  background: blue;
+  transform: translate(180px, 1300px) rotate(90deg);
 }
 
 .gallery-main {
