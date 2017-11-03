@@ -1,0 +1,92 @@
+.container {
+  width: 100%
+}
+
+body {
+  background-color: $cream;
+  // background-image: url("../img/city.jpg");
+  // background-size: cover;
+  // background-position: center;
+}
+
+
+
+.main-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+#elliot-main {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid #8B4513;
+  margin-top: 100px;
+  margin-left: 270px;
+}
+
+.gallery-main {
+  display: flex;
+  justify-content: center;
+}
+
+#design-influences {
+  font-size: 30px;
+  font-family: nikefont;
+  margin-left: -30px;
+  padding-top: 30px;
+  color: black;
+}
+
+
+#one {
+  margin-left: 40px;
+}
+
+img {
+  margin-top: 70px;
+  width: 610px;
+  height: 300px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.design-text {
+  font-family: nikefont;
+  text-align: center;
+}
+
+.gallery-two {
+  display: flex;
+  justify-content: center;
+}
+
+#interests {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: -100px;
+  padding-top: 100px;
+}
+
+#three, #four, #five {
+  width: 400px;
+  height: 400px;
+  padding: -200px;
+}
+
+#three {
+  margin-left: 40px;
+}
+
+.gallert-three {
+  display: flex;
+  justify-content: center;
+}
+
+#six {
+  width: 1200px;
+  height: 400px;
+  justify-content: center;
+  margin-left: 100px;
+}

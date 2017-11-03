@@ -38,6 +38,19 @@ a {
   text-decoration: none;
   color: #775e09; }
 
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #775e09; }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 25px;
+  margin-left: -50px;
+  color: black;
+  font-weight: bold; }
+
 .container {
   width: 100%; }
 
@@ -80,5 +93,34 @@ img {
 .design-text {
   font-family: nikefont;
   text-align: center; }
+
+.gallery-two {
+  display: flex;
+  justify-content: center; }
+
+#interests {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: -100px;
+  padding-top: 100px; }
+
+#three, #four, #five {
+  width: 400px;
+  height: 400px;
+  padding: -200px; }
+
+#three {
+  margin-left: 40px; }
+
+.gallert-three {
+  display: flex;
+  justify-content: center; }
+
+#six {
+  width: 1200px;
+  height: 400px;
+  justify-content: center;
+  margin-left: 100px; }
 
 /*# sourceMappingURL=styles.css.map */

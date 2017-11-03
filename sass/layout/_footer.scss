@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #775e09;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 25px;
+  margin-left: -50px;
+  color: black;
+  font-weight: bold;
+}
