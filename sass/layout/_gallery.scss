@@ -1,5 +1,5 @@
 .container {
-  width: 100%
+  max-width: 100%
 }
 
 body {
@@ -37,6 +37,7 @@ body {
   justify-content: center;
 }
 
+
 .design-influences {
   font-size: 30px;
   font-family: nikefont;
@@ -56,6 +57,7 @@ img {
   height: 300px;
   margin-right: 50px;
   margin-left: 10px;
+  justify-content: center;
 }
 
 .design-text {
@@ -88,16 +90,25 @@ img {
 
 .gallert-three {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
+ }
+.gallery-content-six {
+  display: flex;
+  flex-direction: column;
 }
-
 #six {
   width: 1200px;
   height: 400px;
   justify-content: center;
-  margin-left: 100px;
+  // padding: -100px;
+  margin-left: 500px;
+  margin-right: 400px;
+  margin-bottom: 75px;
 }
 
+// .six {
+//   display: block;
+// }
 // .design-influences {
 //   color: black;
 // }

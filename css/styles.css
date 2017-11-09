@@ -95,13 +95,14 @@ footer {
 li {
   display: inline-block;
   list-style-type: none;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: -50px;
   font-weight: bold;
-  margin: 20px; }
+  margin: 20px;
+  font-family: nikefont; }
 
 .container {
-  width: 100%; }
+  max-width: 100%; }
 
 body {
   background-color: #FCFBE3; }
@@ -141,7 +142,8 @@ img {
   width: 610px;
   height: 300px;
   margin-right: 50px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  justify-content: center; }
 
 .design-text {
   font-family: nikefont;
@@ -167,13 +169,18 @@ img {
   margin-left: 40px; }
 
 .gallert-three {
+  display: flex; }
+
+.gallery-content-six {
   display: flex;
-  justify-content: center; }
+  flex-direction: column; }
 
 #six {
   width: 1200px;
   height: 400px;
   justify-content: center;
-  margin-left: 100px; }
+  margin-left: 500px;
+  margin-right: 400px;
+  margin-bottom: 75px; }
 
 /*# sourceMappingURL=styles.css.map */
