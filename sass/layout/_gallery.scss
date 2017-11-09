@@ -94,6 +94,8 @@ img {
  }
 .gallery-content-six {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 #six {
@@ -101,8 +103,8 @@ img {
   height: 400px;
   justify-content: center;
   // padding: -100px;
-  margin-left: 500px;
-  margin-right: 400px;
+  // margin-left: 500px;
+  // margin-right: 400px;
   margin-bottom: 75px;
 }
 
