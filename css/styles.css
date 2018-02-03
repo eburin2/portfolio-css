@@ -1,6 +1,9 @@
 @media only screen and (max-width: 499px) {
   .container {
-    width: 60%; }
+    width: 60%;
+    margin-left: 70px;}
+
+
 
   .gallery-main {
     display: flex; }
@@ -19,7 +22,7 @@
 
   .design-influences {
     margin-left: -10px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold; }
 
   #two {
@@ -28,7 +31,9 @@
     margin: 2px; }
 
   .mario {
-    font-size: 15px; }
+    font-size: 20px;
+    margin-left: -10px;
+   }
 
   #six {
     display: none; }
@@ -147,7 +152,8 @@ img {
 
 .design-text {
   font-family: nikefont;
-  text-align: center; }
+  text-align: center;
+}
 
 .gallery-two {
   display: flex;
@@ -166,7 +172,7 @@ img {
   padding: -200px; }
 
 #three {
-  margin-left: 40px; }
+  margin-left: 60px; }
 
 .gallert-three {
   display: flex; }
@@ -183,4 +189,6 @@ img {
   justify-content: center;
   margin-bottom: 75px; }
 
+
+}
 /*# sourceMappingURL=styles.css.map */
